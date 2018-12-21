@@ -1,0 +1,171 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  kind: PersistentVolume
+  metadata:
+    annotations:
+      kubernetes.io/createdby: vsphere-volume-dynamic-provisioner
+      pv.kubernetes.io/bound-by-controller: "yes"
+      pv.kubernetes.io/provisioned-by: kubernetes.io/vsphere-volume
+    creationTimestamp: 2018-12-20T10:19:48Z
+    finalizers:
+    - kubernetes.io/pv-protection
+    name: pvc-c4c167e7-0440-11e9-97fc-005056811804
+    resourceVersion: "136357"
+    selfLink: /api/v1/persistentvolumes/pvc-c4c167e7-0440-11e9-97fc-005056811804
+    uid: c7b289ac-0440-11e9-97fc-005056811804
+  spec:
+    accessModes:
+    - ReadWriteOnce
+    capacity:
+      storage: 10Gi
+    claimRef:
+      apiVersion: v1
+      kind: PersistentVolumeClaim
+      name: es-data-es-master-es-cluster-default-0
+      namespace: default
+      resourceVersion: "136326"
+      uid: c4c167e7-0440-11e9-97fc-005056811804
+    persistentVolumeReclaimPolicy: Retain
+    storageClassName: default
+    vsphereVolume:
+      fsType: ext3
+      volumePath: '[DSFC noSync (52)] kubevols/kubernetes-dynamic-pvc-c4c167e7-0440-11e9-97fc-005056811804.vmdk'
+  status:
+    phase: Bound
+- apiVersion: v1
+  kind: PersistentVolume
+  metadata:
+    annotations:
+      kubernetes.io/createdby: vsphere-volume-dynamic-provisioner
+      pv.kubernetes.io/bound-by-controller: "yes"
+      pv.kubernetes.io/provisioned-by: kubernetes.io/vsphere-volume
+    creationTimestamp: 2018-12-20T10:19:48Z
+    finalizers:
+    - kubernetes.io/pv-protection
+    name: pvc-c4d07f6c-0440-11e9-97fc-005056811804
+    resourceVersion: "136356"
+    selfLink: /api/v1/persistentvolumes/pvc-c4d07f6c-0440-11e9-97fc-005056811804
+    uid: c7c80f34-0440-11e9-97fc-005056811804
+  spec:
+    accessModes:
+    - ReadWriteOnce
+    capacity:
+      storage: 10Gi
+    claimRef:
+      apiVersion: v1
+      kind: PersistentVolumeClaim
+      name: es-data-es-data-es-cluster-default-0
+      namespace: default
+      resourceVersion: "136325"
+      uid: c4d07f6c-0440-11e9-97fc-005056811804
+    persistentVolumeReclaimPolicy: Retain
+    storageClassName: default
+    vsphereVolume:
+      fsType: ext3
+      volumePath: '[DSFC noSync (52)] kubevols/kubernetes-dynamic-pvc-c4d07f6c-0440-11e9-97fc-005056811804.vmdk'
+  status:
+    phase: Bound
+- apiVersion: v1
+  kind: PersistentVolume
+  metadata:
+    annotations:
+      kubernetes.io/createdby: vsphere-volume-dynamic-provisioner
+      pv.kubernetes.io/bound-by-controller: "yes"
+      pv.kubernetes.io/provisioned-by: kubernetes.io/vsphere-volume
+    creationTimestamp: 2018-12-20T10:20:18Z
+    finalizers:
+    - kubernetes.io/pv-protection
+    name: pvc-d582148e-0440-11e9-97fc-005056811804
+    resourceVersion: "136515"
+    selfLink: /api/v1/persistentvolumes/pvc-d582148e-0440-11e9-97fc-005056811804
+    uid: d97b64b2-0440-11e9-97fc-005056811804
+  spec:
+    accessModes:
+    - ReadWriteOnce
+    capacity:
+      storage: 10Gi
+    claimRef:
+      apiVersion: v1
+      kind: PersistentVolumeClaim
+      name: es-data-es-master-es-cluster-default-1
+      namespace: default
+      resourceVersion: "136483"
+      uid: d582148e-0440-11e9-97fc-005056811804
+    persistentVolumeReclaimPolicy: Retain
+    storageClassName: default
+    vsphereVolume:
+      fsType: ext3
+      volumePath: '[DSFC noSync (52)] kubevols/kubernetes-dynamic-pvc-d582148e-0440-11e9-97fc-005056811804.vmdk'
+  status:
+    phase: Bound
+- apiVersion: v1
+  kind: PersistentVolume
+  metadata:
+    annotations:
+      kubernetes.io/createdby: vsphere-volume-dynamic-provisioner
+      pv.kubernetes.io/bound-by-controller: "yes"
+      pv.kubernetes.io/provisioned-by: kubernetes.io/vsphere-volume
+    creationTimestamp: 2018-12-20T10:20:33Z
+    finalizers:
+    - kubernetes.io/pv-protection
+    name: pvc-dc4d2500-0440-11e9-97fc-005056811804
+    resourceVersion: "136581"
+    selfLink: /api/v1/persistentvolumes/pvc-dc4d2500-0440-11e9-97fc-005056811804
+    uid: e267040f-0440-11e9-97fc-005056811804
+  spec:
+    accessModes:
+    - ReadWriteOnce
+    capacity:
+      storage: 10Gi
+    claimRef:
+      apiVersion: v1
+      kind: PersistentVolumeClaim
+      name: es-data-es-data-es-cluster-default-1
+      namespace: default
+      resourceVersion: "136568"
+      uid: dc4d2500-0440-11e9-97fc-005056811804
+    persistentVolumeReclaimPolicy: Retain
+    storageClassName: default
+    vsphereVolume:
+      fsType: ext3
+      volumePath: '[DSFC noSync (52)] kubevols/kubernetes-dynamic-pvc-dc4d2500-0440-11e9-97fc-005056811804.vmdk'
+  status:
+    phase: Bound
+- apiVersion: v1
+  kind: PersistentVolume
+  metadata:
+    annotations:
+      kubernetes.io/createdby: vsphere-volume-dynamic-provisioner
+      pv.kubernetes.io/bound-by-controller: "yes"
+      pv.kubernetes.io/provisioned-by: kubernetes.io/vsphere-volume
+    creationTimestamp: 2018-12-20T10:21:18Z
+    finalizers:
+    - kubernetes.io/pv-protection
+    name: pvc-fab335c0-0440-11e9-97fc-005056811804
+    resourceVersion: "136710"
+    selfLink: /api/v1/persistentvolumes/pvc-fab335c0-0440-11e9-97fc-005056811804
+    uid: fd4c9908-0440-11e9-97fc-005056811804
+  spec:
+    accessModes:
+    - ReadWriteOnce
+    capacity:
+      storage: 10Gi
+    claimRef:
+      apiVersion: v1
+      kind: PersistentVolumeClaim
+      name: es-data-es-data-es-cluster-default-2
+      namespace: default
+      resourceVersion: "136695"
+      uid: fab335c0-0440-11e9-97fc-005056811804
+    persistentVolumeReclaimPolicy: Retain
+    storageClassName: default
+    vsphereVolume:
+      fsType: ext3
+      volumePath: '[DSFC noSync (52)] kubevols/kubernetes-dynamic-pvc-fab335c0-0440-11e9-97fc-005056811804.vmdk'
+  status:
+    phase: Bound
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""
